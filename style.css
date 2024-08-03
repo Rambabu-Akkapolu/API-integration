@@ -1,0 +1,80 @@
+h2 {
+    font-size: 2rem ;
+     margin: 30px;
+}
+#form{
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+}
+.form-container{
+    border: 2px solid rgb(47, 159, 210);
+    padding:0.4rem 0 ;
+    box-shadow: 0px 0px 4px 4px rgb(116, 100, 100);
+
+}
+form >ul> li> label{
+    font-size: 2vmin;
+}
+form li {
+list-style: none;
+margin-bottom: 5px;
+}
+
+form ul li label{
+float: left;
+clear: left;
+width: 100px;
+text-align: right;
+margin-right: 5px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:1em;
+}
+
+form ul li input, select, span {
+float: left;
+margin-right: 8px;
+margin-bottom: 10px;
+}
+
+form textarea {
+float: left;
+width: 163px;
+height: 50px;
+}
+.button{
+    display: grid;
+    place-items: center;
+}
+[type="submit"] {
+clear: left;
+margin: 20px 0 0 230px;
+font-size:16px
+}
+.button{
+    display: grid;
+    place-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#retrieve-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+#retrieve-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#users-data {
+    margin-top: 20px;
+    border: 1px solid #2f9fd2;
+    padding: 10px;
+    box-shadow: 0px 0px 4px 4px rgb(116, 100, 100);
+}
